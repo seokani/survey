@@ -1,0 +1,30 @@
+.Home{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h2{
+    color : #1ab394;
+}
+
+.btnSurvey{
+    width:100px;
+    background-color: #1ab394;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius:10px;
+    transition: all 0.5s;
+}
+.btnSurvey:hover{
+    background-color: #0c816a;
+}
