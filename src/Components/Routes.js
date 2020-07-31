@@ -5,7 +5,7 @@ import Home from '../Pages/Home';
 
 export default () => (
     <div >
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Route exact={true} path="/survey" component={Home}/>
         <Route path="/surveypage" component={SurveyP}/>
       </BrowserRouter>
